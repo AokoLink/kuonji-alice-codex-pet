@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>久远寺有珠 · 动作预览</title>
+<style>
+  :root{font-family:system-ui,"Microsoft YaHei",sans-serif;color:#272735;background:#f5f3f0}
+  body{max-width:1050px;margin:0 auto;padding:44px 24px}
+  header{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-bottom:28px}
+  h1{margin:0 0 8px;font-size:28px;font-weight:650}p{margin:0;color:#686575;font-size:14px}
+  button{border:1px solid #cbc8d2;background:#fff;border-radius:9px;padding:10px 16px;cursor:pointer;color:inherit}
+  main{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+  figure{margin:0;border:1px solid #dedbe1;background:#fff;border-radius:16px;overflow:hidden;text-align:center}
+  .stage{background:#eeedf3;padding:16px;display:grid;place-items:center}
+  img{display:block;width:192px;height:208px;object-fit:contain}
+  figcaption{padding:14px;font-size:14px;font-weight:600}
+  body.dark .stage{background:#282d3a}
+  footer{margin-top:28px;font-size:13px;line-height:1.8;color:#686575}
+</style>
+<header><div><h1>久远寺有珠</h1><p>黑色冬装 · 蓝色小鸟 · 九组动画</p></div><button type="button" onclick="document.body.classList.toggle('dark')">切换预览底色</button></header>
+<main>
+  <figure><div class="stage"><img src="previews/idle.gif" alt="优雅端坐，轻啜热茶"></div><figcaption>端坐饮茶</figcaption></figure>
+  <figure><div class="stage"><img src="previews/running-right.gif" alt="向右跑动"></div><figcaption>向右跑动</figcaption></figure>
+  <figure><div class="stage"><img src="previews/running-left.gif" alt="向左跑动"></div><figcaption>向左跑动</figcaption></figure>
+  <figure><div class="stage"><img src="previews/waving.gif" alt="挥手打招呼"></div><figcaption>挥手</figcaption></figure>
+  <figure><div class="stage"><img src="previews/jumping.gif" alt="蓄力、起跳与落地"></div><figcaption>跳跃</figcaption></figure>
+  <figure><div class="stage"><img src="previews/failed.gif" alt="失落后恢复"></div><figcaption>失落</figcaption></figure>
+  <figure><div class="stage"><img src="previews/waiting.gif" alt="伸出手掌等待回应"></div><figcaption>等待输入</figcaption></figure>
+  <figure><div class="stage"><img src="previews/running.gif" alt="专注思考与手部动作"></div><figcaption>工作中</figcaption></figure>
+  <figure><div class="stage"><img src="previews/review.gif" alt="托腮检查结果"></div><figcaption>检查结果</figcaption></figure>
+</main>
+<footer>在 Codex 设置 → Pets 中刷新并选择「久远寺有珠」。<br>此页面展示各组动画；Codex 会根据对应状态播放动作。</footer>
+</html>

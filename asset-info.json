@@ -1,0 +1,12 @@
+{
+  "name": "久远寺有珠",
+  "default_action": "端坐品茶",
+  "sprite_version": 1,
+  "width": 1536,
+  "height": 1872,
+  "cell_width": 192,
+  "cell_height": 208,
+  "frames_per_row": [6, 8, 8, 4, 5, 8, 6, 6, 6],
+  "total_frames": 57,
+  "sha256": "93b68fe884096aff2e68353ef7099efcb6a2bb33a37b3184ed616e5eca4a078b"
+}
